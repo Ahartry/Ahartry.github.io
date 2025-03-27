@@ -1,0 +1,9 @@
+body {
+	background-color: rgb(0, 0, 255);
+}
+a:active {
+    color: gray;
+}
+a:visited {
+    color:black;
+}
