@@ -1,8 +1,11 @@
 body {
 	background-color: rgb(0, 0, 255);
 }
+a:link {
+    color:#B9E2F3;
+}
 a:active {
-    color:white;
+    color:#E0F5FF;
 }
 a:visited {
     color:black;
