@@ -2,11 +2,8 @@ body {
 	background-color: rgb(0, 0, 255);
 }
 a:link {
-    color:#b9e2f3;
-}
-a:active {
-    color:#e0f5ff;
+	color:white;
 }
 a:visited {
-    color:#a6a6a6;
+	color:grey;
 }
