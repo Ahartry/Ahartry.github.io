@@ -46,6 +46,11 @@ img {
   display:inline
 }
 
+.columnr {
+  float: right;
+  display:inline
+}
+
 .left, .right {
   width: 20%;
   display:inline
@@ -54,6 +59,10 @@ img {
 .middle {
   width: 50%;
   display:inline
+}
+
+.inline {
+    display:inline
 }
 
 /* Clear floats after the columns */
