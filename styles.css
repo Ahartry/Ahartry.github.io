@@ -1,11 +1,11 @@
 :root{
     --navbar-shift-time: 0.24s;
-    --primary-color-dark: #380562;
-    --primary-color-light: #d4b5ed;
+    --primary-color-dark: #2b034d;
+    --primary-color-light: #edd7ff;
     --primary-color-main: #4c1e72;
-    --secondary-color-dark: #3c553c;
-    --secondary-color-light: #bbd5bb;
-    --secondary-color-main: #77aa77;
+    --secondary-color-dark: #000000;
+    --secondary-color-light: #b8b8b8;
+    --secondary-color-main: #616161;
 }
 
 body {
@@ -36,7 +36,7 @@ a:focus {
 }
 
 img {
-    border-radius: 15%;
+    border-radius: 5%;
     max-width: 50vw;
 }
 
