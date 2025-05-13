@@ -3,9 +3,12 @@
     --primary-color-dark: #2b034d;
     --primary-color-light: #edd7ff;
     --primary-color-main: #4c1e72;
-    --secondary-color-dark: #000000;
+    /* --secondary-color-dark: #000000;
     --secondary-color-light: #b8b8b8;
-    --secondary-color-main: #616161;
+    --secondary-color-main: #616161; */
+    --secondary-color-dark: #3c553c;
+    --secondary-color-light: #bbd5bb;
+    --secondary-color-main: #77aa77;
 }
 
 body {
@@ -40,50 +43,19 @@ img {
     max-width: 50vw;
 }
 
-/* Create three unequal columns that floats next to each other */
-.column {
-  float: left;
-  display:inline
-}
-
-.columnr {
-  float: right;
-  display:inline
-}
-
-.left, .right {
-  width: 20%;
-  display:inline
-}
-
-.middle {
-  width: 50%;
-  display:inline
-}
-
-.inline {
-    display:inline
-}
-
-/* Clear floats after the columns */
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
 /* Header Styles */
 header{
-    /* align-items: center; */
+    align-items: center;
     background-color: var(--primary-color-dark);
-    border-radius: 0 0 2.5vw 2.5vw;
+    /* border-radius: 0 0 2.5vw 2.5vw; */
     box-sizing: border-box;
     display:flex;
-    justify-content: space-between;
+    /* justify-content: space-between; */
     outline: 1px solid var(--secondary-color-dark);
     position: sticky;
     top: 0;
     width: 100vw;
+    height: 10vh;
 }
 
 header h1 {
@@ -145,7 +117,7 @@ header nav ul li.active a, header nav ul li a:active {
 /* Main Content Styles */
 main{
     font-size: 1.5rem;
-    padding: 0 25vw 0 25vw;
+    padding: 0 20vw 0 20vw;
 }
 
 main .postlist {
