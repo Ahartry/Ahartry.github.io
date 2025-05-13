@@ -44,15 +44,17 @@ img {
 .column {
   float: left;
   padding: 10px;
-  height: 300px; /* Should be removed. Only for demonstration */
+  display:inline
 }
 
 .left, .right {
   width: 25%;
+  display:inline
 }
 
 .middle {
   width: 50%;
+  display:inline
 }
 
 /* Clear floats after the columns */
