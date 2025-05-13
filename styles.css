@@ -40,6 +40,8 @@ img {
     max-width: 50vw;
 }
 
+.floatRight{float:right;margin-left:20px}
+
 /* Header Styles */
 header{
     /* align-items: center; */
