@@ -1,14 +1,14 @@
 :root{
     --navbar-shift-time: 0.24s;
-    --primary-color-dark: #2b034d;
-    --primary-color-light: #edd7ff;
-    --primary-color-main: #4c1e72;
+    --primary-color-dark: #600055;
+    --primary-color-light: #ffffff;
+    --primary-color-main: #161616;
     /* --secondary-color-dark: #000000;
     --secondary-color-light: #b8b8b8;
     --secondary-color-main: #616161; */
-    --secondary-color-dark: #3c553c;
-    --secondary-color-light: #bbd5bb;
-    --secondary-color-main: #77aa77;
+    --secondary-color-dark: #003600;
+    --secondary-color-light: #84ff84;
+    --secondary-color-main: #3e923e;
 }
 
 body {
@@ -16,7 +16,7 @@ body {
     border: 0;
     color: var(--primary-color-light);
     display: flex;
-    font-family: "Quicksand", "Arial", "sans-serif";
+    font-family: "Courier New", "Courier", "serif";
     flex-direction: column;
     font-size: 16px;
     margin: 0;
@@ -116,8 +116,8 @@ header nav ul li.active a, header nav ul li a:active {
 
 /* Main Content Styles */
 main{
-    font-size: 1.5rem;
-    padding: 0 20vw 0 20vw;
+    font-size: 1.2rem;
+    padding: 0 25vw 0 25vw;
 }
 
 main .postlist {
