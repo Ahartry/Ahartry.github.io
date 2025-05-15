@@ -11,17 +11,12 @@
     --secondary-color-main: #3e923e;
 }
 
-@font-face { font-family: myfont; src: url('couriernew.ttf'); } 
-@font-face { font-family: myfont; font-weight: bold; src: url('couriernewbold.ttf');}
-@font-face { font-family: myfont; font-style: italic; src: url('couriernewitalic.ttf'); } 
-@font-face { font-family: myfont; font-style: italic; font-weight: bold; src: url('couriernewbolditalic.ttf');}
-
 body {
     background-color: var(--primary-color-main);
     border: 0;
     color: var(--primary-color-light);
     display: flex;
-    font-family: myfont;
+    font-family: 'Courier New', Courier, monospace;
     flex-direction: column;
     font-size: 16px;
     margin: 0;
