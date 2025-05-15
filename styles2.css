@@ -66,6 +66,11 @@ header h1 {
     text-align: center;
 }
 
+iframe {
+    width: 20vw;
+    height: 12vw;
+}
+
 header h2 {
     color: var(--secondary-color-light);
     font-size: 2rem;
