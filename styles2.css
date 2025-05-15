@@ -3,9 +3,6 @@
     --primary-color-dark: #600055;
     --primary-color-light: #ffffff;
     --primary-color-main: #161616;
-    /* --secondary-color-dark: #000000;
-    --secondary-color-light: #b8b8b8;
-    --secondary-color-main: #616161; */
     --secondary-color-dark: #003600;
     --secondary-color-light: #84ff84;
     --secondary-color-main: #3e923e;
@@ -41,6 +38,12 @@ a:focus {
 img {
     border-radius: 2%;
     max-width: 50vw;
+}
+
+.image {
+    float: right;
+    border: 1px dotted black;
+    margin: 0px 0px 15px 20px;
 }
 
 /* Header Styles */
@@ -131,6 +134,11 @@ header nav ul li.active a, header nav ul li a:active {
 main{
     font-size: 1.2rem;
     padding: 0 25vw 0 25vw;
+}
+
+main2{
+    font-size: 1.2rem;
+    padding: 0 20vw 0 20vw;
 }
 
 main .postlist {
