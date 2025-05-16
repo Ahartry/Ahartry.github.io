@@ -193,7 +193,7 @@ footer p{
 @media(max-width: 767px) { 
 
     body {
-        font-size:30px;
+        font-size:2rem;
     }
 
     header{
