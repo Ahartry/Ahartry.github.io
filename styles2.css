@@ -180,7 +180,7 @@ footer p{
 }
 
 /* Small Window */
-@media(max-width: 900px) {
+@media only screen and (orientation: landscape) {
     main {
         padding: 0 6vw 0 6vw;
     }
@@ -190,7 +190,7 @@ footer p{
 }
 
 /* Mobile */
-@media(max-width: 767px) { 
+@media only screen and (orientation: landscape) { 
 
     body {
         font-size:1.5rem;
