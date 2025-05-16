@@ -192,6 +192,10 @@ footer p{
 /* Mobile */
 @media(max-width: 767px) { 
 
+    body {
+        font-size:16px;
+    }
+
     header{
         align-items: center;
         flex-direction: column;
