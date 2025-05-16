@@ -40,6 +40,7 @@ img {
     max-width: 50vw;
 }
 
+/* For the inline image stuff */
 .image {
     float: right;
     border: 1px dotted black;
@@ -242,7 +243,7 @@ footer p{
     }
 
     .webring {
-        font-size: 0.75rem;
+        font-size: 1rem;
         margin: auto 6vw 0.75vh 6vw;
     }
 
