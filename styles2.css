@@ -179,15 +179,6 @@ footer p{
     padding-right: 1rem;
 }
 
-/* Small Window */
-@media only screen and (orientation: portrait) {
-    main {
-        padding: 0 6vw 0 6vw;
-    }
-    .webring {
-        margin: auto 6vw 0.75vh 6vw;
-    }
-}
 
 /* Mobile */
 @media only screen and (orientation: portrait) { 
@@ -232,9 +223,11 @@ footer p{
 
     main{
         font-size: 1.5rem;
+        padding: 0 6vw 0 6vw;
     }
 
     .webring {
         font-size: 0.75rem;
+        margin: auto 6vw 0.75vh 6vw;
     }
 }
