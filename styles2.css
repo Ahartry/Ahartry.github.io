@@ -243,4 +243,9 @@ footer p{
         font-size: 0.75rem;
         margin: auto 6vw 0.75vh 6vw;
     }
+
+    iframe {
+        width: 40vw;
+        height: 24vw;
+    }
 }
