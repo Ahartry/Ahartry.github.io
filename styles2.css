@@ -180,7 +180,7 @@ footer p{
 }
 
 /* Small Window */
-@media only screen and (orientation: landscape) {
+@media only screen and (orientation: portrait) {
     main {
         padding: 0 6vw 0 6vw;
     }
@@ -190,7 +190,7 @@ footer p{
 }
 
 /* Mobile */
-@media only screen and (orientation: landscape) { 
+@media only screen and (orientation: portrait) { 
 
     body {
         font-size:1.5rem;
